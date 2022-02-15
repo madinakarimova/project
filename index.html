@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    
+<section class="funfacts">
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3">
+<div class="single-fun">
+    <img src="./picsss/beer.png" alt="">
+    <p>
+        <span class="count">55</span>
+        Beer  drinker
+    </p>
+</div>
+        </div>
+ <!-------------second pic----------------------------------------------------------------->
+ <div class="col-lg-3">
+    <div class="single-fun">
+        <img src="./picsss/coffee-cup.png" alt="" >
+        <p>
+            <span class="count">90</span>
+            COFFE  drinkers
+        </p>
+    </div>
+            </div>
+            <!-----------------------------------------third part----------------------->
+            <div class="col-lg-3">
+                <div class="single-fun">
+                    <img src="./picsss/mojito.png" alt="" >
+                    <p>
+                        <span class="count">50</span>
+                        MOJITO drinkers
+                    </p>
+                </div>
+                        </div>
+                        <!-------fourth part------------------------------------------------>
+                        
+                                    <!----------------------------fifth part--------------------->
+                                    <div class="col-lg-3">
+                                        <div class="single-fun">
+                                            <img src="./picsss/orange-juice.png" alt="" >
+                                            <p>
+                                                <span class="count">70</span>
+                                                JUICE drinkers
+                                            </p>
+                                        </div>
+                                                </div>
+    </div>
+
+</div>
+</section>
+
+<script src= "https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script>
+    $( function (){
+        $ ('.count') . counterUp(
+            {
+                delay:17,
+                time:5000
+            }
+        );
+    }
+    );
+</script>
+</body>
+</html>

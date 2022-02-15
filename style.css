@@ -1,0 +1,37 @@
+body{
+background-image: url(./picsss/james-lee-YIy1cd3xN4w-unsplash.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 80vh;
+
+}
+.funfacts{
+    padding: 105px 0;
+    margin-top: 40px;
+}
+.single-fun{
+    position: relative;
+}
+.single-fun img{
+    max-width: 70px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+.single-fun p{
+    align-items: center;
+    color: white;
+    display: inline-flex;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    position: relative;
+}
+.single-fun p span{
+    font-family: "Roboto",sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-right: 20px;
+}
